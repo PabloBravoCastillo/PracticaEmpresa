@@ -8,7 +8,14 @@ top{
     font-size: 3px;
 }
 
-body_inicio{
-    margin-left: 20px;
-    margin-right: 20px;
+.body_inicio_titulo{
+    text-align: center;
+}
+
+.alineo{
+    margin-left: 35%;
+}
+.body_inicio_desc{
+    margin-left: 55px;
+    margin-right: 55px;
 }
