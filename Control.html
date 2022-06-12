@@ -39,25 +39,25 @@
     <form action="transactionForm">
       <div class="mb-3 mt-3">
         <label for="text">Nombre:</label>
-        <input type="text" class="form-control" id="nombre" placeholder="Introduce el nombre" name="nombre" required>
+        <input type="text" class="form-control" id="nombre" value="" placeholder="Introduce el nombre" name="nombre" required>
       </div>
       <div class="mb-3">
         <label for="text">Descripción:</label>
-        <input type="text" class="form-control" id="descripción" placeholder="Introduce la Descripción" name="descripción" required>
+        <input type="text" class="form-control" id="descripción" value="" placeholder="Introduce la Descripción" name="descripción" required>
       </div>
       <div class="mb-3">
         <label for="text">Horas:</label>
-        <input type="number" class="form-control" id="horas" placeholder="Introduce las horas de duración" name="horas" required>
+        <input type="number" class="form-control" id="horas" value="" placeholder="Introduce las horas de duración" name="horas" required>
       </div>
       <div class="mb-3">
         <label for="text">Fecha inicio:</label>
-        <input type="date" class="form-control" id="fechai" placeholder="Introduce la fecha de inicio" name="fechai"  required>
+        <input type="date" class="form-control" id="fechai" value="" placeholder="Introduce la fecha de inicio" name="fechai"  required>
       </div>
       <div class="mb-3">
         <label for="text">Fecha fin:</label>
-        <input type="date" class="form-control" id="fechaf" placeholder="Introduce la fecha de fin" name="fechaf" required >
+        <input type="date" class="form-control" id="fechaf" value="" placeholder="Introduce la fecha de fin" name="fechaf" required >
         <br>
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <button type="button" value="Agregar" class="btn btn-primary" id="add_row">Agregar</button>
     </form>
   </div>
   <h2>Cursos</h2>
@@ -69,45 +69,19 @@
       <th>Horas</th>
       <th>Fecha inicio</th>
       <th>Fecha fin</th>
+      <th>Acción</th>
 
     </thead>
 
     <tbody class="sombreadotablar">
-      <tr>
-        <th>1</th>
-      <th>Java</th>
-      <th>Curso de intoducción a Java</th>
-      <th>5</th>
-      <th>19/03/2022</th>
-      <th>15/09/2023</th>
-      </tr>
-      <tr>
-        <th>2</th>
-      <th>JavaScript</th>
-      <th>Curso avanzado JavaScript</th>
-      <th>8</th>
-      <th>01/01/2022</th>
-      <th>15/06/2023</th>
-      </tr>
-
-      <tr>
-        <th>3</th>
-      <th>Java Avanzado</th>
-      <th>Curso de Java nivel avanzado</th>
-      <th>19</th>
-      <th>01/04/2022</th>
-      <th>01/01/2024</th>
-      </tr>
-
-      <tr>
-        <th>4</th>
-      <th>HTML Y CSS</th>
-      <th>Curso de introducción a html y css</th>
-      <th>5</th>
-      <th>19/03/2022</th>
-      <th>15/09/2023</th>
-      </tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tbody>
+    
   </table>
 </body>
 </html>
