@@ -35,7 +35,13 @@
 <body>
 
   <?php
-  include(conexion.php)
+
+
+
+  include("conexion.php");
+  
+  
+  
   ?>
   
   <div class="container mt-3">
@@ -62,11 +68,15 @@
         <label for="text">Fecha fin:</label>
         <input type="date" class="form-control" id="fechaf"  placeholder="Introduce la fecha de fin" name="fechaf" required >
         <br>
+      </div>
       <button type="button" onclick="agregarCurso">Agregar</button>
     </form>
   </div>
   <h2>Cursos</h2>
-  <table id="cursos"></table>
+  
+  <table id="cursos">
+
+  </table>
   
 </body>
 </html>

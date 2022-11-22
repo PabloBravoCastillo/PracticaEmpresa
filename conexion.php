@@ -10,6 +10,6 @@
             echo "Línea del error" . $e->getLine();
         }
 
-
+        
 
 ?>
